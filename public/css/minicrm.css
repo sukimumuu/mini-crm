@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logincontainer{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    margin-left: 36%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
+.ferom{
+    position: absolute;
+    margin-top: 10%;
+}
+
+.inputlogin{
+    position: relative;
+    font-size: 20px;
+    padding: 15px;
+}
+.inputlogin input{
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+}
+.inputlogin input:hover{
+    outline: 2px solid rgb(46, 139, 245);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+#login{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(46, 139, 245);
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 5%;
+    border-radius: 20px;
+
+}
+#login:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px 0px;
+}
+.title{
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 300px;
+    height: 60px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.50);
+    position: relative;
+}
+.title p{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 34px;
+    margin-top: 15px;
+}
+.logincontainer a{
+    border-top: 2px solid rgba(0, 0, 0, 0.22);
+    margin-left: 32.5%;
+    margin-top: 20%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 10px;
+}
